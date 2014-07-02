@@ -1,6 +1,6 @@
 var a=navigator.onLine;
     if(a){
-          alert('online');
+          setTimeout("document.location = 'http://www.tableless.com.br'",1000);
     }else{
-          alert('ofline');
+          setTimeout("document.location = 'offline.html'",1000);
     }
